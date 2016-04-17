@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC3E25A91CBBB6E100124F4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3E25A81CBBB6E100124F4A /* main.m */; };
+		EC3E25AC1CBBB6E100124F4A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3E25AB1CBBB6E100124F4A /* AppDelegate.m */; };
+		EC3E25AF1CBBB6E100124F4A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3E25AE1CBBB6E100124F4A /* ViewController.m */; };
+		EC3E25B21CBBB6E100124F4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC3E25B01CBBB6E100124F4A /* Main.storyboard */; };
+		EC3E25B41CBBB6E100124F4A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC3E25B31CBBB6E100124F4A /* Images.xcassets */; };
+		EC3E25B71CBBB6E100124F4A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC3E25B51CBBB6E100124F4A /* LaunchScreen.xib */; };
+		EC3E25C31CBBB6E100124F4A /* MyAlbumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3E25C21CBBB6E100124F4A /* MyAlbumTests.m */; };
+		EC3E25D61CBBC0DD00124F4A /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3E25D51CBBC0DD00124F4A /* ShareViewController.m */; };
+		EC3E25D81CBBC0DD00124F4A /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC3E25D71CBBC0DD00124F4A /* MainInterface.storyboard */; };
+		EC3E25DB1CBBC0DD00124F4A /* ShareImage.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EC3E25D01CBBC0DD00124F4A /* ShareImage.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC3E25BD1CBBB6E100124F4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC3E259B1CBBB6E100124F4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC3E25A21CBBB6E100124F4A;
+			remoteInfo = MyAlbum;
+		};
+		EC3E25D91CBBC0DD00124F4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC3E259B1CBBB6E100124F4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC3E25CF1CBBC0DD00124F4A;
+			remoteInfo = ShareImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EC3E25DF1CBBC0DD00124F4A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EC3E25DB1CBBC0DD00124F4A /* ShareImage.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EC3E25A31CBBB6E100124F4A /* MyAlbum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAlbum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC3E25A71CBBB6E100124F4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC3E25A81CBBB6E100124F4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC3E25AA1CBBB6E100124F4A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC3E25AB1CBBB6E100124F4A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC3E25AD1CBBB6E100124F4A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC3E25AE1CBBB6E100124F4A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC3E25B11CBBB6E100124F4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC3E25B31CBBB6E100124F4A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC3E25B61CBBB6E100124F4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EC3E25BC1CBBB6E100124F4A /* MyAlbumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAlbumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC3E25C11CBBB6E100124F4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC3E25C21CBBB6E100124F4A /* MyAlbumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAlbumTests.m; sourceTree = "<group>"; };
+		EC3E25D01CBBC0DD00124F4A /* ShareImage.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ShareImage.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC3E25D31CBBC0DD00124F4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC3E25D41CBBC0DD00124F4A /* ShareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
+		EC3E25D51CBBC0DD00124F4A /* ShareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
+		EC3E25D71CBBC0DD00124F4A /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		ECE6CFF71CBBC33F0034CE2C /* ShareImage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ShareImage.entitlements; sourceTree = "<group>"; };
+		ECE6CFF81CBBD4EF0034CE2C /* MyAlbum.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = MyAlbum.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC3E25A01CBBB6E100124F4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3E25B91CBBB6E100124F4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3E25CD1CBBC0DD00124F4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC3E259A1CBBB6E100124F4A = {
+			isa = PBXGroup;
+			children = (
+				EC3E25A51CBBB6E100124F4A /* MyAlbum */,
+				EC3E25BF1CBBB6E100124F4A /* MyAlbumTests */,
+				EC3E25D11CBBC0DD00124F4A /* ShareImage */,
+				EC3E25A41CBBB6E100124F4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC3E25A41CBBB6E100124F4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC3E25A31CBBB6E100124F4A /* MyAlbum.app */,
+				EC3E25BC1CBBB6E100124F4A /* MyAlbumTests.xctest */,
+				EC3E25D01CBBC0DD00124F4A /* ShareImage.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC3E25A51CBBB6E100124F4A /* MyAlbum */ = {
+			isa = PBXGroup;
+			children = (
+				ECE6CFF81CBBD4EF0034CE2C /* MyAlbum.entitlements */,
+				EC3E25AA1CBBB6E100124F4A /* AppDelegate.h */,
+				EC3E25AB1CBBB6E100124F4A /* AppDelegate.m */,
+				EC3E25AD1CBBB6E100124F4A /* ViewController.h */,
+				EC3E25AE1CBBB6E100124F4A /* ViewController.m */,
+				EC3E25B01CBBB6E100124F4A /* Main.storyboard */,
+				EC3E25B31CBBB6E100124F4A /* Images.xcassets */,
+				EC3E25B51CBBB6E100124F4A /* LaunchScreen.xib */,
+				EC3E25A61CBBB6E100124F4A /* Supporting Files */,
+			);
+			path = MyAlbum;
+			sourceTree = "<group>";
+		};
+		EC3E25A61CBBB6E100124F4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC3E25A71CBBB6E100124F4A /* Info.plist */,
+				EC3E25A81CBBB6E100124F4A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC3E25BF1CBBB6E100124F4A /* MyAlbumTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC3E25C21CBBB6E100124F4A /* MyAlbumTests.m */,
+				EC3E25C01CBBB6E100124F4A /* Supporting Files */,
+			);
+			path = MyAlbumTests;
+			sourceTree = "<group>";
+		};
+		EC3E25C01CBBB6E100124F4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC3E25C11CBBB6E100124F4A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC3E25D11CBBC0DD00124F4A /* ShareImage */ = {
+			isa = PBXGroup;
+			children = (
+				ECE6CFF71CBBC33F0034CE2C /* ShareImage.entitlements */,
+				EC3E25D41CBBC0DD00124F4A /* ShareViewController.h */,
+				EC3E25D51CBBC0DD00124F4A /* ShareViewController.m */,
+				EC3E25D71CBBC0DD00124F4A /* MainInterface.storyboard */,
+				EC3E25D21CBBC0DD00124F4A /* Supporting Files */,
+			);
+			path = ShareImage;
+			sourceTree = "<group>";
+		};
+		EC3E25D21CBBC0DD00124F4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC3E25D31CBBC0DD00124F4A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC3E25A21CBBB6E100124F4A /* MyAlbum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC3E25C61CBBB6E100124F4A /* Build configuration list for PBXNativeTarget "MyAlbum" */;
+			buildPhases = (
+				EC3E259F1CBBB6E100124F4A /* Sources */,
+				EC3E25A01CBBB6E100124F4A /* Frameworks */,
+				EC3E25A11CBBB6E100124F4A /* Resources */,
+				EC3E25DF1CBBC0DD00124F4A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC3E25DA1CBBC0DD00124F4A /* PBXTargetDependency */,
+			);
+			name = MyAlbum;
+			productName = MyAlbum;
+			productReference = EC3E25A31CBBB6E100124F4A /* MyAlbum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC3E25BB1CBBB6E100124F4A /* MyAlbumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC3E25C91CBBB6E100124F4A /* Build configuration list for PBXNativeTarget "MyAlbumTests" */;
+			buildPhases = (
+				EC3E25B81CBBB6E100124F4A /* Sources */,
+				EC3E25B91CBBB6E100124F4A /* Frameworks */,
+				EC3E25BA1CBBB6E100124F4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC3E25BE1CBBB6E100124F4A /* PBXTargetDependency */,
+			);
+			name = MyAlbumTests;
+			productName = MyAlbumTests;
+			productReference = EC3E25BC1CBBB6E100124F4A /* MyAlbumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC3E25CF1CBBC0DD00124F4A /* ShareImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC3E25DC1CBBC0DD00124F4A /* Build configuration list for PBXNativeTarget "ShareImage" */;
+			buildPhases = (
+				EC3E25CC1CBBC0DD00124F4A /* Sources */,
+				EC3E25CD1CBBC0DD00124F4A /* Frameworks */,
+				EC3E25CE1CBBC0DD00124F4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShareImage;
+			productName = ShareImage;
+			productReference = EC3E25D01CBBC0DD00124F4A /* ShareImage.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC3E259B1CBBB6E100124F4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Firoz Khan";
+				TargetAttributes = {
+					EC3E25A21CBBB6E100124F4A = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = H5YN326H2T;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					EC3E25BB1CBBB6E100124F4A = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = EC3E25A21CBBB6E100124F4A;
+					};
+					EC3E25CF1CBBC0DD00124F4A = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = H5YN326H2T;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = EC3E259E1CBBB6E100124F4A /* Build configuration list for PBXProject "MyAlbum" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC3E259A1CBBB6E100124F4A;
+			productRefGroup = EC3E25A41CBBB6E100124F4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC3E25A21CBBB6E100124F4A /* MyAlbum */,
+				EC3E25BB1CBBB6E100124F4A /* MyAlbumTests */,
+				EC3E25CF1CBBC0DD00124F4A /* ShareImage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC3E25A11CBBB6E100124F4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC3E25B21CBBB6E100124F4A /* Main.storyboard in Resources */,
+				EC3E25B71CBBB6E100124F4A /* LaunchScreen.xib in Resources */,
+				EC3E25B41CBBB6E100124F4A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3E25BA1CBBB6E100124F4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3E25CE1CBBC0DD00124F4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC3E25D81CBBC0DD00124F4A /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC3E259F1CBBB6E100124F4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC3E25AF1CBBB6E100124F4A /* ViewController.m in Sources */,
+				EC3E25AC1CBBB6E100124F4A /* AppDelegate.m in Sources */,
+				EC3E25A91CBBB6E100124F4A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3E25B81CBBB6E100124F4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC3E25C31CBBB6E100124F4A /* MyAlbumTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3E25CC1CBBC0DD00124F4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC3E25D61CBBC0DD00124F4A /* ShareViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC3E25BE1CBBB6E100124F4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC3E25A21CBBB6E100124F4A /* MyAlbum */;
+			targetProxy = EC3E25BD1CBBB6E100124F4A /* PBXContainerItemProxy */;
+		};
+		EC3E25DA1CBBC0DD00124F4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC3E25CF1CBBC0DD00124F4A /* ShareImage */;
+			targetProxy = EC3E25D91CBBC0DD00124F4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC3E25B01CBBB6E100124F4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC3E25B11CBBB6E100124F4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC3E25B51CBBB6E100124F4A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC3E25B61CBBB6E100124F4A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC3E25C41CBBB6E100124F4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC3E25C51CBBB6E100124F4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC3E25C71CBBB6E100124F4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MyAlbum/MyAlbum.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = MyAlbum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		EC3E25C81CBBB6E100124F4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MyAlbum/MyAlbum.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = MyAlbum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		EC3E25CA1CBBB6E100124F4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyAlbumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyAlbum.app/MyAlbum";
+			};
+			name = Debug;
+		};
+		EC3E25CB1CBBB6E100124F4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyAlbumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyAlbum.app/MyAlbum";
+			};
+			name = Release;
+		};
+		EC3E25DD1CBBC0DD00124F4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ShareImage/ShareImage.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShareImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EC3E25DE1CBBC0DD00124F4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ShareImage/ShareImage.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ShareImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC3E259E1CBBB6E100124F4A /* Build configuration list for PBXProject "MyAlbum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC3E25C41CBBB6E100124F4A /* Debug */,
+				EC3E25C51CBBB6E100124F4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC3E25C61CBBB6E100124F4A /* Build configuration list for PBXNativeTarget "MyAlbum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC3E25C71CBBB6E100124F4A /* Debug */,
+				EC3E25C81CBBB6E100124F4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC3E25C91CBBB6E100124F4A /* Build configuration list for PBXNativeTarget "MyAlbumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC3E25CA1CBBB6E100124F4A /* Debug */,
+				EC3E25CB1CBBB6E100124F4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC3E25DC1CBBC0DD00124F4A /* Build configuration list for PBXNativeTarget "ShareImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC3E25DD1CBBC0DD00124F4A /* Debug */,
+				EC3E25DE1CBBC0DD00124F4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC3E259B1CBBB6E100124F4A /* Project object */;
+}

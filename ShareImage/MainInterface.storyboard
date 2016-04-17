@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="GG8-Hg-jMn">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--My Album-->
+        <scene sceneID="ceB-am-kn3">
+            <objects>
+                <viewController id="j1y-V4-xli" customClass="ShareViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8bI-gs-bmD"/>
+                        <viewControllerLayoutGuide type="bottom" id="d5i-Ba-RvD"/>
+                    </layoutGuides>
+                    <view key="view" opaque="NO" contentMode="scaleToFill" id="wbc-yd-nQP">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gGh-8c-GDZ">
+                                <rect key="frame" x="8" y="72" width="584" height="520"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gGh-8c-GDZ" firstAttribute="leading" secondItem="wbc-yd-nQP" secondAttribute="leading" constant="8" id="Hn7-ny-7Qp"/>
+                            <constraint firstItem="gGh-8c-GDZ" firstAttribute="top" secondItem="8bI-gs-bmD" secondAttribute="bottom" constant="8" id="JhT-rY-BNp"/>
+                            <constraint firstAttribute="trailing" secondItem="gGh-8c-GDZ" secondAttribute="trailing" constant="8" id="ZgD-mX-gbw"/>
+                            <constraint firstAttribute="bottom" secondItem="gGh-8c-GDZ" secondAttribute="bottom" constant="8" id="qWj-Wu-afh"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="My Album" id="o0I-Ev-NCP">
+                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="EJn-t9-K12">
+                            <connections>
+                                <action selector="cancelButtonPressed:" destination="j1y-V4-xli" id="a0f-1R-XFa"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Add" id="LxV-jq-bTn">
+                            <connections>
+                                <action selector="addButtonPressed:" destination="j1y-V4-xli" id="1My-gA-Ljl"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="sharingImageView" destination="gGh-8c-GDZ" id="Y6K-UA-l7l"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CEy-Cv-SGf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1351" y="97"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="IdZ-sb-kk7">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="GG8-Hg-jMn" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="4Hg-yD-TWP">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="j1y-V4-xli" kind="relationship" relationship="rootViewController" id="KCV-Q6-K4F"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mG0-lU-gDm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="539" y="97"/>
+        </scene>
+    </scenes>
+</document>
